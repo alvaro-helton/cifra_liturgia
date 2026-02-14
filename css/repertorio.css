@@ -1,0 +1,74 @@
+ html, body {
+    font-size:small;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 10px;
+    padding: 0px;
+
+     min-height: 100%;
+    /* 100dvh resolve problemas com barras de navegação móveis modernas */
+    height: 100dvh;
+    -webkit-fill-available: true;
+    background: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 15px;
+    background-color:brown;
+    color: white;
+    margin-bottom: 2px;
+}
+
+h2{
+    margin: 0;
+    font-size: 16px;
+     
+}
+
+
+.la, .las, .si, .do, .dos, .re, .res, .mi, .fa, .fas, .sol, .sols{
+        color: red;
+        margin: 0px;
+}
+
+#tom, #novotom, #ref{
+    color: white;
+    font-style:italic;
+    font-size:x-small;
+}
+#tom_{
+    color: red;
+    font-weight: bold;
+}
+
+span{
+    color:white;
+    margin: 0.1px;
+    padding: 0px;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.comp{
+    color: red;
+    font-weight: bold;
+}
+.refrao{
+    font-weight:bold;
+}
+button{
+    margin: 0px 2px;
+    border-radius: 10px;
+       background-color: white;
+        border: solid, 1pt, brown;
+}
+nav{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+     color: black;
+    
+}
