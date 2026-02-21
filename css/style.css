@@ -1,146 +1,163 @@
 
-    body {
-        background-color: azure;
+body {
+    background-color: azure;
 
-    }
+}
 
+h1{
+    text-align: center;
+    font-size: 50pt;
+    font-family: PlaywriteUSModern, sans-serif;
+    background: linear-gradient(45deg, #c90003, #185100, #64aa38);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(45deg, #c90003, #185100, #64aa38);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+p{
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
     h1{
-        text-align: center;
-        font-size: 50pt;
-        font-family: PlaywriteUSModern, sans-serif;
-        background: linear-gradient(45deg, #c90003, #185100, #64aa38);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+        font-size: 32pt;
     }
     h2{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background: linear-gradient(45deg, #c90003, #185100, #64aa38);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+        font-size: 18pt;
     }
-    p{
-        text-align:center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    td, th{
+        font-size: 12pt;
     }
+}
 
-    @media (max-width: 768px) {
-        h1{
-            font-size: 32pt;
-        }
-        h2{
-            font-size: 18pt;
-        }
-        td, th{
-            font-size: 12pt;
-        }
+@media (max-width: 480px) {
+    h1{
+        font-size: 24pt;
     }
+    h2{
+        font-size: 14pt;
+    }
+    td, th{
+        font-size: 10pt;
+    }
+}
+.container1{
+    background-color:rgb(241, 235, 235);
+    border-radius: 10px;
+    position: center;
 
-    @media (max-width: 480px) {
-        h1{
-            font-size: 24pt;
-        }
-        h2{
-            font-size: 14pt;
-        }
-        td, th{
-            font-size: 10pt;
-        }
-    }
-    .container1{
-        background-color:rgb(241, 235, 235);
-        border-radius: 10px;
-        position: center;
+}
+.container2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: rgb(243, 242, 235);
+    border-radius: 30px;  
+}
+
+.container2::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container2::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.container2::-webkit-scrollbar-thumb {
+    background: none ;
+    border-radius: 4px;
+}
+
+.container2::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+td{
+    text-align: right;
+    padding-right: 5pt;
+    padding-left: 5pt;
+    font-style:normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1pt solid rgb(216, 210, 210);
+    background-color: orange;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+td:hover{
+    background-color: #f0e9e2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+td:active{
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+th{
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.anoemes{
+    background-color: orange;
+    text-align: center;
+    margin:0pt;
+    border-radius: 6px;
+}
+table{
+    width: 100%;
+    padding: 0pt 4pt;
+    margin:0pt;
+}
+.container3{
+    background-color:none;
     
-    }
-    .container2{
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        max-width: 500px;
-        max-height: 90vh;
-        overflow-y: auto;
-        background-color: rgb(243, 242, 235);
-        border-radius: 30px;  
-    }
+}
+#cifraliturgia{
+    padding: 4px;
+}
+.left{
 
-    .container2::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    .container2::-webkit-scrollbar-track {
-        background: transparent;
-    }
-
-    .container2::-webkit-scrollbar-thumb {
-        background: none ;
-        border-radius: 4px;
-    }
-
-    .container2::-webkit-scrollbar-thumb:hover {
-        background: #555;
-    }
+    float:left;
+}
+.diasmes{
+    float:center;
+}
+footer{
+    padding-bottom: 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}  
+.proxmes{
+    color: rgb(112, 107, 107);
+}
+#calendario{
+    width: 20px;
+    margin: 0px 1px 5px 1px;
+    border-radius: 10%;
+    color: orange;
+    border: solid 1pt rgb(241, 235, 235);
     
-    td{
-        text-align: right;
-        padding-right: 5pt;
-        padding-left: 5pt;
-        font-style:normal;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        border: 1pt solid rgb(216, 210, 210);
-        background-color: orange;
-        border-radius: 6px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-    td:hover{
-        background-color: #f0e9e2;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        transform: translateY(-2px);
-    }
-    td:active{
-        transform: translateY(0);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
-    th{
-        text-align: right;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .anoemes{
-        background-color: orange;
-        text-align: center;
-        margin:0pt;
-        border-radius: 6px;
-    }
-    table{
-        width: 100%;
-        padding: 0pt 4pt;
-        margin:0pt;
-    }
-    .container3{
-        background-color:none;
-        
-    }
-    #cifraliturgia{
-        padding: 4px;
-    }
-    .left{
-    
-        float:left;
-    }
-    .diasmes{
-        float:center;
-    }
-    footer{
-        padding-bottom: 6px;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-    }  
-    .proxmes{
-        color: rgb(112, 107, 107);
-    }
+}
+.option{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(241, 235, 235);
+}
+.dia-ativo {
+color: white;
+}

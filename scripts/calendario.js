@@ -1,0 +1,228 @@
+function calendar(){
+    let mes = (calendario).value;
+
+    console.log("O mês escolhido foi: " + mes)
+
+    if(mes == "fevereiro"){
+        document.getElementById("container1").innerHTML =  
+
+
+    `<div id="container1" class="container1">
+
+        <div class="container2">
+
+            <div class="cifraliturgia" id="cifraliturgia">
+                <h1>cifraliturgia</h1>
+            <div class="anoemes">
+                <h2><span id="ano">2026</span><span> | </span><span>Fevereiro</span>
+
+
+                    <select onchange="calendar()" name="calendario" id="calendario">
+                        <option value="">Selecione o mês</option>
+                        <option value="fevereiro">Fevereiro</option>
+                        <option value="marco">Março</option> 
+                    </select>
+
+                </h2>
+            </div>
+          
+
+            <div class="container3">
+
+                <div class="diasmes">
+                    <table class="table">
+                        <thead>                
+                
+                            <tr> <!--Linha dos dias da semana do calendário-->
+                                <th>DOM</th>
+                                <th>SEG</th>
+                                <th>TER</th>
+                                <th>QUA</th>
+                                <th>QUI</th>
+                                <th>SEX</th>
+                                <th>SAB</th>
+                            </tr>
+                            
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td><a href="#">1</a></td>
+                                <td><a href="#">2</a></td>
+                                <td><a href="#">3</a></td>
+                                <td><a href="#">4</a></td>
+                                <td><a href="#">5</a></td>
+                                <td><a href="#">6</a></td>
+                                <td><a href="#">7</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">8</a></td>
+                                <td><a href="#">9</a></td>
+                                <td><a href="#">10</a></td>
+                                <td><a href="#">11</a></td>
+                                <td><a href="#">12</a></td>
+                                <td><a href="#">13</a></td>
+                                <td><a href="#">14</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">15</a></td>
+                                <td><a href="#">16</a></td>
+                                <td><a href="#">17</a></td>
+                                <td><a class="dia-ativo" href="repertorios/quarta_cinzas_a/quarta_cinzas_entrada.html">18</a></td>
+                                <td><a href="#">19</a></td>
+                                <td><a href="#">20</a></td>
+                                <td><a href="#">21</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia-ativo" href="repertorios/1_dom_quaresma_a/1_dom_quaresma_a_entrada.html">22</a></td>
+                                <td><a href="#">23</a></td>
+                                <td><a href="#">24</a></td>
+                                <td><a href="#">25</a></td>
+                                <td><a href="#">26</a></td>
+                                <td><a href="#">27</a></td>
+                                <td><a href="#">28</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="proxmes" href="#">1</a></td>
+                                <td><a class="proxmes" href="#">2</a></td>
+                                <td><a class="proxmes" href="#">3</a></td>
+                                <td><a class="proxmes" href="#">4</a></td>
+                                <td><a class="proxmes" href="#">5</a></td>
+                                <td><a class="proxmes" href="#">6</a></td>
+                                <td><a class="proxmes" href="#">7</a></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div><!--Fecha div diasmes-->
+            </div><!--Fecha container3-->
+            <p style="color: red; font-size:smaller; margin: 4pt;">
+                (Em construção)
+                <br>
+                Os repertórios disponíveis estão destacados na cor branca
+            </p>
+            <footer>
+                <div>
+                    <p>
+                        Cifra Liturgia - 2026
+                        <br>
+                        alvarohelton@gmail.com
+                    </p>
+                </div>
+            </footer>                           
+        </div><!--Fecha container2-->
+    </div> <!--Fecha container1--></div>
+     `   
+    }  
+      
+    else if(mes == "marco"){
+       document.getElementById("container1").innerHTML =      
+
+ `<div id="container1" class="container1">
+
+        <div class="container2">
+
+            <div class="cifraliturgia"; id="cifraliturgia">
+                <h1>cifraliturgia</h1>
+            <div class="anoemes">
+                <h2><span id="ano">2026</span><span> | </span><span>Março</span>
+                     <select onchange="calendar()" name="calendario" id="calendario">
+                        <option value="">Selecione o mês</option>
+                        <option value="fevereiro">Fevereiro</option>
+                        <option value="marco">Março</option>
+                    </select> 
+                </h2>
+               
+                
+            </div>
+          
+
+            <div class="container3">
+
+                <div class="diasmes">
+                    <table class="table">
+                        <thead>                
+                
+                            <tr> <!--Linha dos dias da semana do calendário-->
+                                <th>DOM</th>
+                                <th>SEG</th>
+                                <th>TER</th>
+                                <th>QUA</th>
+                                <th>QUI</th>
+                                <th>SEX</th>
+                                <th>SAB</th>
+                            </tr>
+                                </thead>
+                                    <tr>
+                                        <td><a class="dia-ativo" href="repertorios/2_dom_quaresma_a/2_dom_quaresma_a_entrada.html">1</a></td>
+                                        <td><a href="#">2</a></td>
+                                        <td><a href="#">3</a></td>
+                                        <td><a href="#">4</a></td>
+                                        <td><a href="#">5</a></td>
+                                        <td><a href="#">6</a></td>
+                                        <td><a href="#">7</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">8</a></td>
+                                        <td><a href="#">9</a></td>
+                                        <td><a href="#">10</a></td>
+                                        <td><a href="#">11</a></td>
+                                        <td><a href="#">12</a></td>
+                                        <td><a href="#">13</a></td>
+                                        <td><a href="#">14</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">15</a></td>
+                                        <td><a href="#">16</a></td>
+                                        <td><a href="#">17</a></td>
+                                        <td><a href="#">18</a></td>
+                                        <td><a href="#">19</a></td>
+                                        <td><a href="#">20</a></td>
+                                        <td><a href="#">21</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">22</a></td>
+                                        <td><a href="#">23</a></td>
+                                        <td><a href="#">24</a></td>
+                                        <td><a href="#">25</a></td>
+                                        <td><a href="#">26</a></td>
+                                        <td><a href="#">27</a></td>
+                                        <td><a href="#">28</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">29</a></td>
+                                        <td><a href="#">30</a></td>
+                                        <td><a href="#">31</a></td>
+                                        <td><a class="proxmes" href="#">1</a></td>
+                                        <td><a class="proxmes" href="#">2</a></td>
+                                        <td><a class="proxmes" href="#">3</a></td>
+                                        <td><a class="proxmes" href="#">4</a></td>
+                                    </tr>
+
+                                </tbody>
+
+                    </table>
+                </div><!--Fecha div diasmes-->
+            </div><!--Fecha container3-->
+            <p style="color: red; font-size:smaller; margin: 4pt;">
+                (Em construção)
+                <br>
+                Os repertórios disponíveis estão destacados na cor branca
+            </p>
+            <footer>
+                <div>
+                    <p>
+                        Cifra Liturgia - 2026
+                        <br>
+                        alvarohelton@gmail.com
+                    </p>
+                </div>
+            </footer>                           
+        </div><!--Fecha container2-->
+    </div> <!--Fecha container1-->
+    `
+  
+    }    
+}
