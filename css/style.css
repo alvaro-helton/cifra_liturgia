@@ -12,6 +12,9 @@ h1{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom:4px;
+   
+    margin-top: 1px;
 }
 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -62,7 +65,6 @@ p{
     transform: translate(-50%, -50%);
     width: 80%;
     max-width: 500px;
-    max-height: 90vh;
     overflow-y: auto;
     background-color: rgb(243, 242, 235);
     border-radius: 30px;  
@@ -86,17 +88,17 @@ p{
 }
 
 td{
-    text-align: right;
-    padding-right: 5pt;
-    padding-left: 5pt;
+    text-align: center;   
     font-style:normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 1pt solid rgb(216, 210, 210);
     background-color: orange;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
+
 }
+
 td:hover{
     background-color: #f0e9e2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -109,6 +111,11 @@ td:active{
 th{
     text-align: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+tr{
+   border: 1pt solid rgb(216, 210, 210);  
 }
 .anoemes{
     background-color: orange;
@@ -118,12 +125,11 @@ th{
 }
 table{
     width: 100%;
-    padding: 0pt 4pt;
-    margin:0pt;
+   
 }
 .container3{
     background-color:none;
-    
+      
 }
 #cifraliturgia{
     padding: 4px;
@@ -142,14 +148,12 @@ a{
     text-decoration: none;
     color: black;
 }  
-.proxmes{
-    color: rgb(112, 107, 107);
-}
+
 #calendario{
     width: 20px;
     margin: 0px 1px 5px 1px;
     border-radius: 10%;
-    color: orange;
+    color: #185100;
     border: solid 1pt rgb(241, 235, 235);
     
 }
@@ -159,5 +163,32 @@ a{
     background-color: rgb(241, 235, 235);
 }
 .dia-ativo {
-color: white;
+    color: white;
+    display: block;       /* Faz o link virar bloco */
+    width: 100%;          /* Ocupa toda a largura da célula */
+    height: 100%;         /* Ocupa toda a altura */
+    padding: 10px;        /* Espaçamento interno */
+    text-decoration: none;
+       
+}
+.dia{
+    display: block;       /* Faz o link virar bloco */
+    width: 100%;          /* Ocupa toda a largura da célula */
+    height: 100%;         /* Ocupa toda a altura */
+    padding: 10px;        /* Espaçamento interno */
+    text-decoration: none;
+    color: inherit;  
+}
+.proxmes{
+    color: rgb(112, 107, 107);
+    display:block;
+    display: block;       /* Faz o link virar bloco */
+    width: 100%;          /* Ocupa toda a largura da célula */
+    height: 100%;         /* Ocupa toda a altura */
+    padding: 10px;        /* Espaçamento interno */
+    text-decoration: none;
+      
+}
+.footer{
+    margin: 0;
 }
