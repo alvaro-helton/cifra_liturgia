@@ -48,40 +48,40 @@ function calendar(){
                         <tbody>
 
                             <tr>
-                                <td><a href="#">1</a></td>
-                                <td><a href="#">2</a></td>
-                                <td><a href="#">3</a></td>
-                                <td><a href="#">4</a></td>
-                                <td><a href="#">5</a></td>
-                                <td><a href="#">6</a></td>
-                                <td><a href="#">7</a></td>
+                                <td><a class="dia" href="#">1</a></td>
+                                <td><a class="dia" href="#">2</a></td>
+                                <td><a class="dia" href="#">3</a></td>
+                                <td><a class="dia" href="#">4</a></td>
+                                <td><a class="dia" href="#">5</a></td>
+                                <td><a class="dia" href="#">6</a></td>
+                                <td><a class="dia" href="#">7</a></td>
                             </tr>
                             <tr>
-                                <td><a href="#">8</a></td>
-                                <td><a href="#">9</a></td>
-                                <td><a href="#">10</a></td>
-                                <td><a href="#">11</a></td>
-                                <td><a href="#">12</a></td>
-                                <td><a href="#">13</a></td>
-                                <td><a href="#">14</a></td>
+                                <td><a class="dia" href="#">8</a></td>
+                                <td><a class="dia" href="#">9</a></td>
+                                <td><a class="dia" href="#">10</a></td>
+                                <td><a class="dia" href="#">11</a></td>
+                                <td><a class="dia" href="#">12</a></td>
+                                <td><a class="dia" href="#">13</a></td>
+                                <td><a class="dia" href="#">14</a></td>
                             </tr>
                             <tr>
-                                <td><a href="#">15</a></td>
-                                <td><a href="#">16</a></td>
-                                <td><a href="#">17</a></td>
+                                <td><a class="dia" href="#">15</a></td>
+                                <td><a class="dia" href="#">16</a></td>
+                                <td><a class="dia" href="#">17</a></td>
                                 <td><a class="dia-ativo" href="repertorios/quarta_cinzas_a/quarta_cinzas_entrada.html">18</a></td>
-                                <td><a href="#">19</a></td>
-                                <td><a href="#">20</a></td>
-                                <td><a href="#">21</a></td>
+                                <td><a class="dia" href="#">19</a></td>
+                                <td><a class="dia" href="#">20</a></td>
+                                <td><a class="dia" href="#">21</a></td>
                             </tr>
                             <tr>
                                 <td><a class="dia-ativo" href="repertorios/1_dom_quaresma_a/1_dom_quaresma_a_entrada.html">22</a></td>
-                                <td><a href="#">23</a></td>
-                                <td><a href="#">24</a></td>
-                                <td><a href="#">25</a></td>
-                                <td><a href="#">26</a></td>
-                                <td><a href="#">27</a></td>
-                                <td><a href="#">28</a></td>
+                                <td><a class="dia" href="#">23</a></td>
+                                <td><a class="dia" href="#">24</a></td>
+                                <td><a class="dia" href="#">25</a></td>
+                                <td><a class="dia" href="#">26</a></td>
+                                <td><a class="dia" href="#">27</a></td>
+                                <td><a class="dia" href="#">28</a></td>
                             </tr>
                             <tr>
                                 <td><a class="dia-ativo" href="repertorios/2_dom_quaresma_a/2_dom_quaresma_a_entrada.html">1</a></td>
@@ -98,13 +98,9 @@ function calendar(){
                     </table>
                 </div><!--Fecha div diasmes-->
             </div><!--Fecha container3-->
-            <p style="color: red; font-size:smaller; margin: 4pt;">
-                (Em construção)
-                <br>
-                Os repertórios disponíveis estão destacados na cor branca
-            </p>
+            
             <footer>
-                <div>
+                <div class="footer">
                     <p>
                         Cifra Liturgia - 2026
                         <br>
@@ -113,7 +109,7 @@ function calendar(){
                 </div>
             </footer>                           
         </div><!--Fecha container2-->
-    </div> <!--Fecha container1--></div>
+    </div> <!--Fecha container1-->
      `   
     }  
       
@@ -154,65 +150,64 @@ function calendar(){
                                 <th>SEX</th>
                                 <th>SAB</th>
                             </tr>
-                                </thead>
-                                    <tr>
-                                        <td><a class="dia-ativo" href="repertorios/2_dom_quaresma_a/2_dom_quaresma_a_entrada.html">1</a></td>
-                                        <td><a href="#">2</a></td>
-                                        <td><a href="#">3</a></td>
-                                        <td><a href="#">4</a></td>
-                                        <td><a href="#">5</a></td>
-                                        <td><a href="#">6</a></td>
-                                        <td><a href="#">7</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">8</a></td>
-                                        <td><a href="#">9</a></td>
-                                        <td><a href="#">10</a></td>
-                                        <td><a href="#">11</a></td>
-                                        <td><a href="#">12</a></td>
-                                        <td><a href="#">13</a></td>
-                                        <td><a href="#">14</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">15</a></td>
-                                        <td><a href="#">16</a></td>
-                                        <td><a href="#">17</a></td>
-                                        <td><a href="#">18</a></td>
-                                        <td><a href="#">19</a></td>
-                                        <td><a href="#">20</a></td>
-                                        <td><a href="#">21</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">22</a></td>
-                                        <td><a href="#">23</a></td>
-                                        <td><a href="#">24</a></td>
-                                        <td><a href="#">25</a></td>
-                                        <td><a href="#">26</a></td>
-                                        <td><a href="#">27</a></td>
-                                        <td><a href="#">28</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">29</a></td>
-                                        <td><a href="#">30</a></td>
-                                        <td><a href="#">31</a></td>
-                                        <td><a class="proxmes" href="#">1</a></td>
-                                        <td><a class="proxmes" href="#">2</a></td>
-                                        <td><a class="proxmes" href="#">3</a></td>
-                                        <td><a class="proxmes" href="#">4</a></td>
-                                    </tr>
+                        </thead>
 
-                                </tbody>
+                        <tbody>
+
+                            <tr>
+                                <td><a class="dia-ativo" href="repertorios/2_dom_quaresma_a/2_dom_quaresma_a_entrada.html">1</a></td>
+                                <td><a class="dia" href="#">2</a></td>
+                                <td><a class="dia" href="#">3</a></td>
+                                <td><a class="dia" href="#">4</a></td>
+                                <td><a class="dia" href="#">5</a></td>
+                                <td><a class="dia" href="#">6</a></td>
+                                <td><a class="dia" href="#">7</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia-ativo" href="repertorios/3_dom_quaresma_a/3_dom_quaresma_a_entrada.html">8</a></td>
+                                <td><a class="dia" href="#">9</a></td>
+                                <td><a class="dia" href="#">10</a></td>
+                                <td><a class="dia" href="#">11</a></td>
+                                <td><a class="dia" href="#">12</a></td>
+                                <td><a class="dia" href="#">13</a></td>
+                                <td><a class="dia" href="#">14</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia" href="#">15</a></td>
+                                <td><a class="dia" href="#">16</a></td>
+                                <td><a class="dia" href="#">17</a></td>
+                                <td><a class="dia" href="#">18</a></td>
+                                <td><a class="dia" href="#">19</a></td>
+                                <td><a class="dia" href="#">20</a></td>
+                                <td><a class="dia" href="#">21</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia" href="#">22</a></td>
+                                <td><a class="dia" href="#">23</a></td>
+                                <td><a class="dia" href="#">24</a></td>
+                                <td><a class="dia" href="#">25</a></td>
+                                <td><a class="dia" href="#">26</a></td>
+                                <td><a class="dia" href="#">27</a></td>
+                                <td><a class="dia" href="#">28</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">29</a></td>
+                                <td><a href="#">30</a></td>
+                                <td><a href="#">31</a></td>
+                                <td><a class="proxmes" href="#">1</a></td>
+                                <td><a class="proxmes" href="#">2</a></td>
+                                <td><a class="proxmes" href="#">3</a></td>
+                                <td><a class="proxmes" href="#">4</a></td>
+                            </tr>
+
+                        </tbody>
 
                     </table>
                 </div><!--Fecha div diasmes-->
             </div><!--Fecha container3-->
-            <p style="color: red; font-size:smaller; margin: 4pt;">
-                (Em construção)
-                <br>
-                Os repertórios disponíveis estão destacados na cor branca
-            </p>
+            
             <footer>
-                <div>
+                <div class="footer">
                     <p>
                         Cifra Liturgia - 2026
                         <br>
@@ -225,5 +220,4 @@ function calendar(){
     `
   
     }    
-
 }
