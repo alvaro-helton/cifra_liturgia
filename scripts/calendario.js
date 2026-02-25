@@ -191,9 +191,9 @@ function calendar(){
                                 <td><a class="dia" href="#">28</a></td>
                             </tr>
                             <tr>
-                                <td><a href="#">29</a></td>
-                                <td><a href="#">30</a></td>
-                                <td><a href="#">31</a></td>
+                                <td><a class="dia"href="#">29</a></td>
+                                <td><a class="dia"href="#">30</a></td>
+                                <td><a class="dia"href="#">31</a></td>
                                 <td><a class="proxmes" href="#">1</a></td>
                                 <td><a class="proxmes" href="#">2</a></td>
                                 <td><a class="proxmes" href="#">3</a></td>
@@ -220,4 +220,5 @@ function calendar(){
     `
   
     }    
+
 }
