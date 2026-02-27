@@ -173,7 +173,7 @@ function calendar(){
                                 <td><a class="dia" href="#">14</a></td>
                             </tr>
                             <tr>
-                                <td><a class="dia" href="#">15</a></td>
+                                <td><a class="dia-ativo" href="repertorios/4_dom_quaresma_a/4_dom_quaresma_a_entrada.html">15</a></td>
                                 <td><a class="dia" href="#">16</a></td>
                                 <td><a class="dia" href="#">17</a></td>
                                 <td><a class="dia" href="#">18</a></td>
@@ -220,5 +220,4 @@ function calendar(){
     `
   
     }    
-
 }
