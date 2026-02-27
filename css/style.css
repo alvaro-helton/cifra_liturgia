@@ -67,7 +67,7 @@ p{
     max-width: 500px;
     overflow-y: auto;
     background-color: rgb(243, 242, 235);
-    border-radius: 30px;  
+    border-radius: 30px; 
 }
 
 .container2::-webkit-scrollbar {

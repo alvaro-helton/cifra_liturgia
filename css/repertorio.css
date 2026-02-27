@@ -82,3 +82,12 @@ a{
     color: grey;
     text-decoration:underline;
 }
+.simplify{
+    margin-left: 2px;
+    padding: 0px 2px;
+    background-color: brown;
+    border-radius: 2px;
+}
+#simplificar{
+    color: white;
+}
