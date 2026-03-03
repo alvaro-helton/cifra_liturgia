@@ -91,3 +91,10 @@ a{
 #simplificar{
     color: white;
 }
+.fixed{
+    position: fixed;
+    background-color: white;
+    padding: 4px 50px 4px 4px;
+    border: solid 1pt;
+}
+
