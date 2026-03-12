@@ -97,4 +97,11 @@ a{
     padding: 4px 50px 4px 4px;
     border: solid 1pt;
 }
+.option{
+    color: grey;
+    font-weight: bold;
+    text-decoration:underline;
+    margin-bottom: 6px;
+    
+}
 
