@@ -75,12 +75,24 @@ nav{
 }
 a{
     text-decoration: none;
-     color: black;
-    
+     color: black;    
+}
+
+button:hover{
+    background-color: brown;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: white;
+    background-color: brown;
 }
 .linkvideo{
     color: grey;
     text-decoration:underline;
+    padding: 1px 3px 1px 3px;
+    border-radius: 10px;
+    
 }
 .simplify{
     margin-left: 2px;
