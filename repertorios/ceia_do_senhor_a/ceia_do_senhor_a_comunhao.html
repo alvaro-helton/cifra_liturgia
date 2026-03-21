@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#ffffff">
+    <title>Ceia do Senhor (A) - comunhão</title>
+    <link rel="shortcut icon" href="../../img/logotipo_cifraliturgia (1).png">
+    <link rel="stylesheet" href="../../css/repertorio.css"/>
+    <script src="../../scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>CEIA DO SENHOR - ANO A</h1>
+    <nav>
+        <button><a href="ceia_do_senhor_a_santo.html">Voltar</a></button><button><a  href="../../index.html">Pág. Inicial</a></button><button><a href="ceia_do_senhor_a_transladacao.html">Próximo</a></button>
+    </nav>
+   <h2>COMUNHÃO</h2>
+    <audio controls style="width: 100%; height: 24px;">
+            <source src="../../audios/eu_quis_comer_esta_ceia_agora.aac" type="audio/aac">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+
+    <p>Tom original: <span id="tom_"> F </span>Transpor: 
+        <select name="selecionatom" id='selecionatom' onclick="transposicao()">
+            <option value="0">A</option>   
+            <option value="0.5">A#</option>
+            <option value="1">B</option>
+            <option value="1.5">C</option>
+            <option value="2">C#</option>
+            <option value="2.5">D</option>
+            <option value="3">D#</option>
+            <option value="3.5">E</option>
+            <option value="4">F</option>
+            <option value="4.5">F#</option>
+            <option value="5">G</option>
+            <option value="5.5">G#</option>
+        </select>
+    </p>
+    <p id="ref"> Re.: <span id="tom"> 4 </span><span id="novotom">4</span></p>
+
+    <div class="container">
+
+        <span>_______</span><b class="fa">4</b><span>______</span><b class="re">2.5</b><b class="comp">m</b><span>______________</span><b class="do">1.5</b>
+        <p>1. EU QUIS COMER ESTA CEIA AGORA,</p>
+        <span>_______</span><b class="fa">4</b><span>______</span><b class="re">2.5</b><b class="comp">m</b><span>______________</span><b class="do">1.5</b>
+        <p>POIS VOU MORRER JÁ CHEGOU MINHA HORA.</p>
+        <br>
+        <span>____</span><b class="fa">4</b><span>_______</span><b class="fa">4</b><b class="comp">7</b>
+        <p class="refrao">TOMAI, COMEI É MEU CORPO</p>
+        <span>_______</span><b class="las">0.5</b>
+        <p class="refrao">E MEU SANGUE QUE DOU.</p>
+        <span>__</span><b class="fa">4</b><b class="comp">m</b><span>_______________</span><b class="re">2.5</b><b class="comp">m</b><span>______</span><b class="re">2.5</b><b class="comp">m/</b><b class="do">1.5</b>
+        <p class="refrao">VIVEI NO AMOR! EU VOU PREPARAR</p>
+        <span>___</span><b class="las">0.5</b><span>______</span><b class="do">1.5</b><span>________</span><b class="fa">4</b>
+        <p class="refrao">A CEIA NA CASA DO PAI. (BIS)</p>
+        <br>
+        <span>_______</span><b class="fa">4</b><span>____</span><b class="re">2.5</b><b class="comp">m</b><span>___________________</span><b class="do">1.5</b>
+        <p>2. COMEI O PÃO; É MEU CORPO IMOLADO</p>
+        <span>______</span><b class="fa">4</b><span>______</span><b class="re">2.5</b><b class="comp">m</b><span>_________________</span><b class="do">1.5</b>
+        <p>POR VÓS, PERDÃO PARA TODO PECADO.</p>
+        <br>
+        <span>______</span><b class="fa">4</b><span>_____</span><b class="re">2.5</b><b class="comp">m</b><span>_________________________</span><b class="do">1.5</b>
+        <p>3. E VAI NASCER DO MEU SANGUE A ESPERANÇA,</p>
+        <span>_____</span><b class="fa">4</b><span>_____</span><b class="re">2.5</b><b class="comp">m</b><span>________________</span><b class="do">1.5</b>
+        <p>O AMOR, A PAZ; UMA NOVA ALIANÇA.</p>
+        <br>
+        <span>_______</span><b class="fa">4</b><span>_____</span><b class="re">2.5</b><b class="comp">m</b><span>______________________</span><b class="do">1.5</b>
+        <p>4. EU VOU PARTIR; DEIXO O MEU TESTAMENTO.</p>
+        <span>___</span><b class="fa">4</b><span>_______</span><b class="re">2.5</b><b class="comp">m</b><span>____________________</span><b class="do">1.5</b>
+        <p>VIVEI NO AMOR! EIS O MEU MANDAMENTO.</p>
+        <br>
+        <span>____</span><b class="fa">4</b><span>_____</span><b class="re">2.5</b><b class="comp">m</b><span>_____________________</span><b class="do">1.5</b>
+        <p>5. IREI AO PAI; SINTO A VOSSA TRISTEZA;</p>
+        <span>____</span><b class="fa">4</b><span>_______</span><b class="re">2.5</b><b class="comp">m</b><span>________________________</span><b class="do">1.5</b>
+        <p>PORÉM, NO CÉU, VOS PREPARO OUTRA MESA.</p>
+        <br>
+        <span>_______</span><b class="fa">4</b><span>_____</span><b class="re">2.5</b><b class="comp">m</b><span>____________</span><b class="do">1.5</b>
+        <p>6. DE DEUS VIRÁ O ESPÍRITO SANTO,</p>
+        <span>______</span><b class="fa">4</b><span>_______</span><b class="re">2.5</b><b class="comp">m</b><span>________________________</span><b class="do">1.5</b>
+        <p>QUE VOU MANDAR PRA ENXUGAR VOSSO PRANTO.</p>
+        <br>
+        <span>_______</span><b class="fa">4</b><span>________</span><b class="re">2.5</b><b class="comp">m</b><span>__________________</span><b class="do">1.5</b>
+        <p>7. EU VOU, MAS VÓS ME VEREIS NOVAMENTE;</p>
+        <span>____</span><b class="fa">4</b><span>_____</span><b class="re">2.5</b><b class="comp">m</b><span>_________________________</span><b class="do">1.5</b>
+        <p>ESTAIS EM MIM E EU EM VÓS ESTOU PRESENTE.</p>
+        <br>
+        <span>_______</span><b class="fa">4</b><span>_____</span><b class="re">2.5</b><b class="comp">m</b><span>___________________</span><b class="do">1.5</b>
+        <p>8. CRERÁ EM MIM E ESTARÁ NA VERDADE,</p>
+        <span>_______</span><b class="fa">4</b><span>_______</span><b class="re">2.5</b><b class="comp">m</b><span>___________________</span><b class="do">1.5</b>
+        <p>QUEM VIR CRISTÃOS NA PERFEITA UNIDADE.</p>    
+         <br>
+         <br>
+    </div>
+</body>
+</html>
