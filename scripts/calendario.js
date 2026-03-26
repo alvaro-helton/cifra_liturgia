@@ -135,7 +135,7 @@ function calendar(){
             </div>
           
 
-            <div class="container3">
+             <div class="container3">
 
                 <div class="diasmes">
                     <table class="table">
@@ -195,8 +195,8 @@ function calendar(){
                                 <td><a class="dia"href="#">30</a></td>
                                 <td><a class="dia"href="#">31</a></td>
                                 <td><a class="proxmes" href="#">1</a></td>
-                                <td><a class="proxmes" href="#">2</a></td>
-                                <td><a class="proxmes" href="#">3</a></td>
+                                <td><a class="dia-ativo"href="repertorios/ceia_do_senhor_a/ceia_do_senhor_a_entrada.html">2</a></td>
+                                <td><a class="dia-ativo"href="repertorios/paixao_do_senhor_a/paixao_do_senhor_a_salmo.html">3</a></td>
                                 <td><a class="proxmes" href="#">4</a></td>
                             </tr>
 
