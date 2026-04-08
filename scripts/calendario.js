@@ -7,7 +7,7 @@ function calendar(){
         document.getElementById("container1").innerHTML =  
 
 
-    `<div id="container1" class="container1">
+        `<div id="container1" class="container1">
 
         <div class="container2">
 
@@ -20,7 +20,8 @@ function calendar(){
                     <select onchange="calendar()" name="calendario" id="calendario">
                         <option value="">Selecione o mês</option>
                         <option value="fevereiro">Fevereiro</option>
-                        <option value="marco">Março</option> 
+                        <option value="marco">Março</option>
+                        <option value="abril">Abril</option> 
                     </select>
 
                 </h2>
@@ -116,7 +117,7 @@ function calendar(){
     else if(mes == "marco"){
        document.getElementById("container1").innerHTML =      
 
- `<div id="container1" class="container1">
+        `<div id="container1" class="container1">
 
         <div class="container2">
 
@@ -128,6 +129,7 @@ function calendar(){
                         <option value="">Selecione o mês</option>
                         <option value="fevereiro">Fevereiro</option>
                         <option value="marco">Março</option>
+                        <option value="abril">Abril</option>
                     </select> 
                 </h2>
                
@@ -197,7 +199,7 @@ function calendar(){
                                 <td><a class="proxmes" href="#">1</a></td>
                                 <td><a class="dia-ativo"href="repertorios/ceia_do_senhor_a/ceia_do_senhor_a_entrada.html">2</a></td>
                                 <td><a class="dia-ativo"href="repertorios/paixao_do_senhor_a/paixao_do_senhor_a_salmo.html">3</a></td>
-                                <td><a class="proxmes" href="#">4</a></td>
+                                <td><a class="dia-ativo"href="repertorios/vigilia_pascal_a/vigilia_pascal_a_eis_a_luz_de_cristo.html">4</a></td>
                             </tr>
 
                         </tbody>
@@ -219,5 +221,119 @@ function calendar(){
     </div> <!--Fecha container1-->
     `
   
-    }    
+    }  
+    
+     else if(mes == "abril"){
+       document.getElementById("container1").innerHTML =      
+
+ `<div id="container1" class="container1">
+
+        <div class="container2">
+
+            <div class="cifraliturgia"; id="cifraliturgia">
+                <h1>cifraliturgia</h1>
+            <div class="anoemes">
+                <h2><span id="ano">2026</span><span> | </span><span>Abril</span>
+
+                     <select onchange="calendar()" name="calendario" id="calendario">
+                        <option value="">Selecione o mês</option>
+                        <option value="fevereiro">Fevereiro</option>
+                        <option value="marco">Março</option>
+                        <option value="abril">Abril</option>
+
+                    </select> 
+                </h2>
+               
+                
+            </div>
+          
+
+             <div class="container3">
+
+                <div class="diasmes">
+                    <table class="table">
+                        <thead>                
+                
+                            <tr> <!--Linha dos dias da semana do calendário-->
+                                <th>DOM</th>
+                                <th>SEG</th>
+                                <th>TER</th>
+                                <th>QUA</th>
+                                <th>QUI</th>
+                                <th>SEX</th>
+                                <th>SAB</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td><a class="proxmes" href="#">29</a></td>
+                                <td><a class="proxmes" href="#">30</a></td>
+                                <td><a class="proxmes" href="#">31</a></td>
+                                <td><a class="dia" href="#">1</a></td>
+                                <td><a class="dia-ativo"href="repertorios/ceia_do_senhor_a/ceia_do_senhor_a_entrada.html">2</a></td>
+                                <td><a class="dia-ativo"href="repertorios/paixao_do_senhor_a/paixao_do_senhor_a_salmo.html">3</a></td>
+                                <td><a class="dia-ativo"href="repertorios/vigilia_pascal_a/vigilia_pascal_a_eis_a_luz_de_cristo.html">4</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia" href="#">5</a></td>
+                                <td><a class="dia" href="#">6</a></td>
+                                <td><a class="dia" href="#">7</a></td>
+                                <td><a class="dia" href="#">8</a></td>
+                                <td><a class="dia" href="#">9</a></td>
+                                <td><a class="dia" href="#">10</a></td>
+                                <td><a class="dia" href="#">11</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia" href="#">12</a></td>
+                                <td><a class="dia" href="#">13</a></td>
+                                <td><a class="dia" href="#">14</a></td>
+                                <td><a class="dia" href="#">15</a></td>
+                                <td><a class="dia" href="#">16</a></td>
+                                <td><a class="dia" href="#">17</a></td>
+                                <td><a class="dia" href="#">18</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia" href="#">19</a></td>
+                                <td><a class="dia" href="#">20</a></td>
+                                <td><a class="dia" href="#">21</a></td>
+                                <td><a class="dia" href="#">22</a></td>
+                                <td><a class="dia" href="#">23</a></td>
+                                <td><a class="dia" href="#">24</a></td>
+                                <td><a class="dia" href="#">25</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="dia" href="#">26</a></td>
+                                <td><a class="dia" href="#">27</a></td>
+                                <td><a class="dia" href="#">28</a></td>
+                                <td><a class="dia" href="#">29</a></td>
+                                <td><a class="dia" href="#">30</a></td>
+                                <td><a class="proxmes" href="#">1</a></td>
+                                <td><a class="proxmes" href="#">2</a></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div><!--Fecha div diasmes-->
+            </div><!--Fecha container3-->
+            
+            <footer>
+                <div class="footer">
+                    <p>
+                        Cifra Liturgia - 2026
+                        <br>
+                        alvarohelton@gmail.com
+                    </p>
+                </div>
+            </footer>                           
+        </div><!--Fecha container2-->
+    </div> <!--Fecha container1-->
+    `
+  
+    }  
+
+
+
 }
