@@ -277,7 +277,7 @@ function calendar(){
                                 <td><a class="dia-ativo"href="repertorios/vigilia_pascal_a/vigilia_pascal_a_eis_a_luz_de_cristo.html">4</a></td>
                             </tr>
                             <tr>
-                                <td><a class="dia" href="#">5</a></td>
+                                <td><a class="dia-ativo"href="repertorios/1_dom_pascoa_a/1_dom_pascoa_a_entrada.html">5</a></td>
                                 <td><a class="dia" href="#">6</a></td>
                                 <td><a class="dia" href="#">7</a></td>
                                 <td><a class="dia" href="#">8</a></td>
@@ -286,7 +286,7 @@ function calendar(){
                                 <td><a class="dia" href="#">11</a></td>
                             </tr>
                             <tr>
-                                <td><a class="dia" href="#">12</a></td>
+                                <td><a class="dia-ativo"href="repertorios/2_dom_pascoa_a/2_dom_pascoa_a_entrada.html">12</a></td>
                                 <td><a class="dia" href="#">13</a></td>
                                 <td><a class="dia" href="#">14</a></td>
                                 <td><a class="dia" href="#">15</a></td>
