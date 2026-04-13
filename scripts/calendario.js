@@ -18,7 +18,7 @@ function calendar(){
 
 
                     <select onchange="calendar()" name="calendario" id="calendario">
-                        <option value="">Selecione o mês</option>
+                        <option value=""></option>
                         <option value="fevereiro">Fevereiro</option>
                         <option value="marco">Março</option>
                         <option value="abril">Abril</option> 
@@ -126,7 +126,7 @@ function calendar(){
             <div class="anoemes">
                 <h2><span id="ano">2026</span><span> | </span><span>Março</span>
                      <select onchange="calendar()" name="calendario" id="calendario">
-                        <option value="">Selecione o mês</option>
+                        <option value=""></option>
                         <option value="fevereiro">Fevereiro</option>
                         <option value="marco">Março</option>
                         <option value="abril">Abril</option>
@@ -236,7 +236,7 @@ function calendar(){
                 <h2><span id="ano">2026</span><span> | </span><span>Abril</span>
 
                      <select onchange="calendar()" name="calendario" id="calendario">
-                        <option value="">Selecione o mês</option>
+                        <option value=""></option>
                         <option value="fevereiro">Fevereiro</option>
                         <option value="marco">Março</option>
                         <option value="abril">Abril</option>
