@@ -401,7 +401,7 @@ function calendar(){
                                 <td><a class="dia" href="#">9</a></td>
                             </tr>
                             <tr>
-                                <td><a class="dia" href="#">10</a></td>
+                                <td><a class="dia-ativo" href="repertorios/6_dom_pascoa_a/6_dom_pascoa_a_entrada.html">10</a></td>
                                 <td><a class="dia" href="#">11</a></td>
                                 <td><a class="dia" href="#">12</a></td>
                                 <td><a class="dia" href="#">13</a></td>
