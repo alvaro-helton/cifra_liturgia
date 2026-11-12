@@ -77,6 +77,14 @@ a{
     text-decoration: none;
      color: black;    
 }
+.menu{
+    background-color: rgb(231, 227, 227);
+    border-radius: 5px;
+}
+.linkrepertorio{
+    padding: 0px 3px 0px 3px;
+    border-radius:2px;
+}
 
 button:hover{
     background-color: brown;
