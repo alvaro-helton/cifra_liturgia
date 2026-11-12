@@ -640,7 +640,7 @@ function calendar(){
                                 <td><a class="dia" href="#">12</a></td>
                             </tr>
                              <tr>
-                                <td><a class="dia" href="#" title="3º Domingo do Advento - Ano B">13</a></td>
+                                <td><a class="dia-ativo" href="repertorios/3_dom_advento_b/3_dom_advento_b_entrada.html" title="3º Domingo do Advento - Ano B">13</a></td>
                                 <td><a class="dia" href="#">14</a></td>
                                 <td><a class="dia" href="#">15</a></td>
                                 <td><a class="dia" href="#">16</a></td>
