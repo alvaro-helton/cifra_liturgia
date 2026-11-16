@@ -649,7 +649,7 @@ function calendar(){
                                 <td><a class="dia" href="#">19</a></td>
                             </tr>
                              <tr>
-                                <td><a class="dia" href="#" title="4º Domingo do Advento - Ano B">20</a></td>
+                                <td><a class="dia-ativo" href="repertorios/4_dom_advento_b/4_dom_advento_b_entrada.html" title="4º Domingo do Advento - Ano B">20</a></td>
                                 <td><a class="dia" href="#">21</a></td>
                                 <td><a class="dia" href="#">22</a></td>
                                 <td><a class="dia" href="#">23</a></td>
