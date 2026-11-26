@@ -653,7 +653,7 @@ function calendar(){
                                 <td><a class="dia" href="#">21</a></td>
                                 <td><a class="dia" href="#">22</a></td>
                                 <td><a class="dia" href="#">23</a></td>
-                                <td><a class="dia" href="#">24</a></td>
+                                <td><a class="dia-ativo" href="repertorios/natal_do_senhor(24)/natal_do_senhor(24)_b_entrada.html">24</a></td>
                                 <td><a class="dia" href="#">25</a></td>
                                 <td><a class="dia" href="#">26</a></td>
                             </tr>
